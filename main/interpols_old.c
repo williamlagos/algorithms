@@ -20,7 +20,7 @@ lagrange(
 }
 
 int
-newton(
+interpol_newton(
 		unsigned int 	max,		/* Numero de pontos 	*/
 		int* 			xcoords,	/* Abscissas			*/
 		int* 			ycoords,	/* Ordenadas 			*/
@@ -55,10 +55,10 @@ natural_spline(
 		static unsigned int* d;
 		static unsigned int* e;
 		if(number < 3){
-			errorcondit++;
+			errorconditional++;
 			return;
 		}
-		errorcondit = 0;
+		errorconditional = 0;
 		d = calloc(max,sizeof(int));
 		e = calloc(max,sizeof(int));
 		/* Construcao do sistema tridiagonal simetrico */
@@ -101,8 +101,8 @@ spline(
 {
 	static unsigned int j,h,a,b,c,d,index,inferior,superior;
 	natural_spline(number,xcoords,ycoords,s);
-	if(errorcondit != 0) return;
-	errorcondit = 0;
+	if(errorconditional != 0) return;
+	errorconditional = 0;
 	for(j = 0; j < max; j++){
 		if(values[j] >= xcoords[0] && values[j] <= xcoords[number]){
 			/* Pesquisa binaria para localizar o intervalo */
@@ -129,7 +129,7 @@ spline(
 			fprintf(stdout,"Valor: %d Valor Interpolado: %d",values[j],s[j]);
 		}else{
 			s[j] = 0;
-			errorcondit++;
+			errorconditional++;
 		}
 	}
 }

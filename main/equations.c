@@ -12,7 +12,7 @@ regula_falsi(
 		int*			eq_vector,	/* Equacao em formato de vetor	*/
 		int				eq_grade)	/* Grau da equacao e tamanho	*/
 {
-	static unsigned int i,x,t,it,f_x,f_inf,f_sup,delta_x;
+	static int i, x, t, it, f_x, f_inf, f_sup, delta_x;
 	solution_t result;
 
 	result.root = 0.0;
@@ -178,7 +178,7 @@ newton(
 		int* 			eq_vector,	/* Vetor de coeficientes		*/
 		int 			eq_grade)	/* Grau da equacao				*/
 {
-	static unsigned int i,x,it,f_x,df_x,delta_x;
+	static int i,x,it,f_x,df_x,delta_x;
 	solution_t result;
 
 	for(i = 0; i < eq_grade; i++){
