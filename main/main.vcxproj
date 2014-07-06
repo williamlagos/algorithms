@@ -64,7 +64,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="adjusts.c" />
+    <ClCompile Include="calc.c" />
+    <ClCompile Include="equations.c" />
+    <ClCompile Include="execute.c" />
+    <ClCompile Include="interpols.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="methods.c" />
+    <ClCompile Include="methods_old.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adjusts.h" />
+    <ClInclude Include="calc.h" />
+    <ClInclude Include="equations.h" />
+    <ClInclude Include="interpols.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
