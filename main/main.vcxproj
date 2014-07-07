@@ -44,7 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\William\Source\Repos\Algorithms\math\Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\William\Source\Repos\Algorithms\sorting;C:\Users\William\Source\Repos\Algorithms\simple;C:\Users\William\Source\Repos\Algorithms\recursive;C:\Users\William\Source\Repos\Algorithms\combinations;C:\Users\William\Source\Repos\Algorithms\math;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -68,10 +68,24 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
     <ClCompile Include="math.c" />
+    <ClCompile Include="simple.c" />
+    <ClCompile Include="sort.c" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\combinations\combinations.vcxproj">
+      <Project>{fd0e5d19-44bd-4e6e-93b2-53ba0866b711}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\math\math.vcxproj">
       <Project>{f89e2adf-de59-4100-8da8-b3d938878f50}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\recursive\recursive.vcxproj">
+      <Project>{0cf6af60-7b23-4ab4-8faa-b08ce74b4e88}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\simple\simple.vcxproj">
+      <Project>{2c8f880f-e84c-48d4-b1b1-3d4ce9f9e7c2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sorting\sorting.vcxproj">
+      <Project>{9d49fb5d-3d82-4d8e-a17f-2cf77d0395a0}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

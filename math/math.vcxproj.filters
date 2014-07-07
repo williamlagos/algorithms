@@ -18,10 +18,10 @@
     <ClCompile Include="..\main\equations.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\main\adjusts_old.c">
+    <ClCompile Include="..\main\adjusts.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\main\interpols_old.c">
+    <ClCompile Include="..\main\interpols.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

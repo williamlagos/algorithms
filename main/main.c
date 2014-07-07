@@ -16,6 +16,8 @@ void main(int argc, char** argv)
 	  equations(argc, argv);
 	  adjusts(argc, argv);
 	  interpols(argc, argv);*/
+	simple();
+	sort();
 	fprintf(stdout, "Hello World!\n");
 	int keypress = getchar();
 	exit(EXIT_SUCCESS);

@@ -65,8 +65,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\main\equations.c" />
-    <ClCompile Include="..\main\interpols_old.c" />
-    <ClCompile Include="..\main\adjusts_old.c" />
+    <ClCompile Include="..\main\adjusts.c" />
+    <ClCompile Include="..\main\interpols.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\main\adjusts.h" />
