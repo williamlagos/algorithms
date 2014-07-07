@@ -18,5 +18,13 @@
     <ClCompile Include="structures.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fibonacci.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="recursive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

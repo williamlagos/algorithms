@@ -68,6 +68,7 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
     <ClCompile Include="math.c" />
+    <ClCompile Include="recursive.c" />
     <ClCompile Include="simple.c" />
     <ClCompile Include="sort.c" />
   </ItemGroup>
