@@ -1,3 +1,6 @@
 [submodule "cc"]
 	path = cc
 	url = git@github.com:williamlagos/cc-coding.git
+[submodule "python"]
+	path = python
+	url = git@github.com:williamlagos/python-coding.git
