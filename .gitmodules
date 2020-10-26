@@ -7,3 +7,6 @@
 [submodule "swift"]
 	path = swift
 	url = git@github.com:williamlagos/swift-coding.git
+[submodule "kotlin"]
+	path = kotlin
+	url = git@github.com:williamlagos/kotlin-coding.git
