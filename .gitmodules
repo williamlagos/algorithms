@@ -10,3 +10,6 @@
 [submodule "kotlin"]
 	path = kotlin
 	url = git@github.com:williamlagos/kotlin-coding.git
+[submodule "es"]
+	path = es
+	url = git@github.com:williamlagos/es-coding.git
