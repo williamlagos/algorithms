@@ -13,3 +13,6 @@
 [submodule "es"]
 	path = es
 	url = git@github.com:williamlagos/es-coding.git
+[submodule "csharp"]
+	path = csharp
+	url = git@github.com:williamlagos/csharp-coding.git
