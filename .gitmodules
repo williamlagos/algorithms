@@ -16,3 +16,6 @@
 [submodule "csharp"]
 	path = csharp
 	url = git@github.com:williamlagos/csharp-coding.git
+[submodule "go"]
+	path = go
+	url = git@github.com:williamlagos/go-coding.git
