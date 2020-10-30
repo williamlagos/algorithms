@@ -1,4 +1,4 @@
 algorithms
 ==========
 
-Algorithms library for C
+Algorithms library
