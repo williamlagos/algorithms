@@ -19,3 +19,6 @@
 [submodule "go"]
 	path = go
 	url = git@github.com:williamlagos/go-coding.git
+[submodule "java"]
+	path = java
+	url = git@github.com:williamlagos/java-coding.git
